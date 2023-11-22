@@ -2,7 +2,7 @@ package infren.section2;
 
 import java.util.Scanner;
 
-public class section7_12 {
+public class section2_12 {
     static int solution(int n, int m, int[][] arr) {
         int answer = 0;
         for (int i = 1; i <= n; i++) {

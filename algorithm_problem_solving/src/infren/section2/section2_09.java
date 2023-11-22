@@ -2,7 +2,7 @@ package infren.section2;
 
 import java.util.Scanner;
 
-public class section7_09 {
+public class section2_09 {
     static int solution(int[][] t) {
         int sum1, sum2;
         int max = 0;

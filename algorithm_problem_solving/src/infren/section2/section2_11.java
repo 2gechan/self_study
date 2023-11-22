@@ -2,7 +2,7 @@ package infren.section2;
 
 import java.util.Scanner;
 
-public class section7_11 {
+public class section2_11 {
 
     static int solution(int[][] t, int n) {
         int answer = 0, max = Integer.MIN_VALUE;

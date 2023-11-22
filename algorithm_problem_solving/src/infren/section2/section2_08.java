@@ -2,7 +2,7 @@ package infren.section2;
 
 import java.util.Scanner;
 
-public class section7_08 {
+public class section2_08 {
 
     static String solution(String[] tc) {
 
