@@ -21,5 +21,5 @@ public class section5_02 {
         Scanner sc = new Scanner(System.in);
         String t = sc.nextLine();
         System.out.println(solution(t));
-    }기
+    }
 }
