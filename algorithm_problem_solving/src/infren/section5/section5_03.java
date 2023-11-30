@@ -23,7 +23,7 @@ public class section5_03 {
             if (stack.isEmpty()) {
                 stack.push(num);
             } else {
-                if (stack.peek(기) == num) {
+                if (stack.peek() == num) {
                     stack.pop();
                     count += 2;
                 } else {
