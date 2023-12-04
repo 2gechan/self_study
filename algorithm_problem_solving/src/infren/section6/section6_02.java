@@ -2,6 +2,7 @@ package infren.section6;
 
 import java.util.Scanner;
 
+// 버블 정렬
 public class section6_02 {
     static int[] solution(int[] t) {
         for (int i = 0; i < t.length; i++) {
