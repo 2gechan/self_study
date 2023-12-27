@@ -1,7 +1,7 @@
 package infren.section7;
 
 
-// 제일 가까운 말단노드까지의 거리 찾기
+// 제일 가까운 말단노드까지의 거리 찾기(dfs - 깊이 우선 알고리즘)
 public class section7_09 {
     static int l = 0;
     static int dfs(int n, Node node) {
