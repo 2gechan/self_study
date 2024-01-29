@@ -13,7 +13,6 @@ public class section8_11 {
     static int m, n;
 
     static void bfs(Queue<Point> q) {
-
         while (!q.isEmpty()) {
             Point tmp = q.poll();
             for (int i = 0; i < 4; i++) {
