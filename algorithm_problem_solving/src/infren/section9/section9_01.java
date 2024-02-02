@@ -1,8 +1,7 @@
-package infren;
+package infren.section9;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.Scanner;
 
 class Body implements Comparable<Body> {
@@ -14,8 +13,8 @@ class Body implements Comparable<Body> {
     }
     @Override
     public int compareTo(Body o) {
-        // 음수를 가리키게 만들면 내림차순
-        // 양수는 오름차순
+        // 양수를 가리키게 만들면 내림차순
+        // 음수는 오름차순
         // 좌표 지정 알고리즘 학습하기
         return o.k - this.k;
     }
