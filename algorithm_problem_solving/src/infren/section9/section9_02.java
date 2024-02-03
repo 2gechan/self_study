@@ -21,6 +21,7 @@ class Meeting implements Comparable<Meeting>{
         else return this.eTime - o.eTime;
     }
 }
+// 회의 시간이 겹치지 않게 최대 희의실을 사용할 수 있는 회의실 수 구하기
 public class section9_02 {
 
     static int solution(ArrayList<Meeting> arr, int n) {
