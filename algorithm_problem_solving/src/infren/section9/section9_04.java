@@ -35,7 +35,7 @@ public class section9_04 {
         int j = 0;
         for (int i = max; i >= 1; i--) {
             for (; j < n; j++) {
-                if (arr.get(j).limit < 1) break;
+                if (arr.get(j).limit < i) break;
                 pQ.offer(arr.get(j).pay);
             }
             if (!pQ.isEmpty()) {
