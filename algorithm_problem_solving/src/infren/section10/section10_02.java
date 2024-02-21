@@ -1,11 +1,11 @@
-package infren.section9;
+package infren.section10;
 
 import java.util.Scanner;
 
 // dynamic
 // 개울 건너기 경우의 수, 피보나치 수열 이용
 // *주의 : 개울을 건너는 경우의 수 이므로 돌의 개수가 아닌 돌을 지나 건너편 땅에 딛는 경우의 수
-public class section9_10 {
+public class section10_02 {
     static int[] dy;
 
     static int solution(int n) {

@@ -1,10 +1,10 @@
-package infren.section9;
+package infren.section10;
 
 import java.util.Scanner;
 
 // dynamic 소규모부터 차근차근 올라가는것
 // 계단오르기 경우의수, 피보나치 수열사용
-public class section9_09 {
+public class section10_01 {
     static int[] dy;
     static int solution(int n) {
         dy[1] = 1;
