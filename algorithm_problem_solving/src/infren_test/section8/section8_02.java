@@ -1,4 +1,4 @@
-package infren_test;
+package infren_test.section8;
 
 import java.util.Scanner;
 
