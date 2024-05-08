@@ -20,21 +20,18 @@ public class p7568 {
         int[] result = new int[n];
         for (int i = 0; i < list.size(); i++) {
             Person tmp = list.get(i);
-            int grade = 0;
+            int rank = 1;
             for (int j = 0; j < list.size(); j++) {
-                if (tmp.w > list.get(j).w && tmp.h > list.get(j).h) {
-                    grade++;
+                if (i == j) continue;
+                if (tmp.w < list.get(j).w && tmp.h < list.get(j).h) {
+                    rank++;
                 }
             }
-            System.out.println(grade);
-            result[i] = n - grade;
+            result[i] = rank;
         }
         return result;
     }
 
-    static int gradeOrder(int cnt) {
-
-    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
