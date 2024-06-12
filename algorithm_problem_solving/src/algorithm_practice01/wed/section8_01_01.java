@@ -2,6 +2,12 @@ package algorithm_practice01.wed;
 
 import java.util.Scanner;
 
+/*
+합이 같은 부분집합
+N개의 자연수로 이루어진 자연수 집합이 주어지면
+이 집합을 두개의 부분집합으로 나누었을 때
+두 부분집합의 합이 같으면 YES, 아니면 NO
+ */
 public class section8_01_01 {
     static int[] ch;
     static int n, sum = 0;
