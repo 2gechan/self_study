@@ -6,9 +6,10 @@ public class section10_03_01 {
     static int solution(int[] arr) {
         int answer = 0;
         int[] dy = new int[arr.length];
-        for (int i = 0; i < arr.length; i++) {
+        dy[0] = 1;
+        for (int i = 1; i < arr.length; i++) {
             int n = arr[i];
-            for (int j = i; j > 0; j--) {
+            for (int j = i - 1; j >= 0; j--) {
                 if (n > arr[j]) dy[i] = Math.max(dy[i], dy[j] + 1);
             }
             if (dy[i] == 0) dy[i] = 1;
