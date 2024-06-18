@@ -1,4 +1,4 @@
-package algorithm_practice01.sun;
+package algorithm_practice01.mon;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package algorithm_practice01.sun;
+package algorithm_practice01.tue;
 
 import java.util.ArrayList;
 import java.util.Collections;
