@@ -1,11 +1,11 @@
-package algorithm_practice01.mon;
+package algorithm_practice01.mon.practice01;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 /*
-최대점수 구하(냅색 알고리즘)
+최대점수 구하가(냅색 알고리즘)
 제한시간 M안에 N개의 문제 중 최대점수 구하기
 # 한 유형당 한개만 풀 수 있다.
  */
