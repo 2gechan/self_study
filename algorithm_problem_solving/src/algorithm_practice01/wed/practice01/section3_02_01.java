@@ -1,4 +1,4 @@
-package algorithm_practice01.wed;
+package algorithm_practice01.wed.practice01;
 
 import java.util.*;
 
