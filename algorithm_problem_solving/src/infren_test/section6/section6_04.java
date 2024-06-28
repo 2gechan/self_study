@@ -7,19 +7,18 @@ public class section6_04 {
         int[] answer = new int[n];
         for (int x : arr) {
             int pos = -1;
-            for (int i = 0; i<n; i++) if (arr[i] == x) pos = i;
+            for (int i = 0; i<n; i++) if (answer[i] == x) pos = i;
             if (pos == -1) {
                 for (int j = n - 1; j >= 1; j--) {
                     answer[j] = answer[j - 1];
                 }
-                answer[0] = x;
             }
             else {
                 for (int j = pos; j >= 1; j--) {
                     answer[j] = answer[j - 1];
                 }
-                answer[0] = x;
             }
+            answer[0] = x;
         }
         return answer;
     }
