@@ -1,4 +1,4 @@
-package algorithm_practice01.fri;
+package algorithm_practice01.fri.practice01;
 
 import java.util.Scanner;
 import java.util.Stack;
