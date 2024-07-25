@@ -3,6 +3,9 @@ package algorithm_practice01.thu.pracetice01;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/*
+Tree 말단 노드까지의 가장 짧은 경로(BFS)
+ */
 public class section7_09_01 {
 
     static int solution(Node root) {
