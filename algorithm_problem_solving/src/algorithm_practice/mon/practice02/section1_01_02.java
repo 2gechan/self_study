@@ -2,7 +2,7 @@ package algorithm_practice.mon.practice02;
 
 import java.util.Scanner;
 
-public class section01_01_02 {
+public class section1_01_02 {
     static int solution(String testCase, String t) {
         int answer = 0;
         testCase = testCase.toLowerCase();
