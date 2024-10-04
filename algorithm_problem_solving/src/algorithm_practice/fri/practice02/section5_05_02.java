@@ -3,7 +3,7 @@ package algorithm_practice.fri.practice02;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class section5_04_02 {
+public class section5_05_02 {
     static int solution(String tc) {
         int answer = 0;
         Stack<Character> stack = new Stack<>();
