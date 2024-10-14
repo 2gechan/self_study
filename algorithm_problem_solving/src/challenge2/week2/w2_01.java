@@ -18,7 +18,6 @@ public class w2_01 {
         for (int i = 0; i < limit; i++) {
             answer += tmp[i];
         }
-
         return answer;
     }
     public static void main(String[] args) {
