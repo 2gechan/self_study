@@ -24,7 +24,7 @@ public class section2_12_01 {
                         if(arr[k][l] == i) pi = l;
                         if (arr[k][l] == j) pj = l;
                     }
-                    if (pi > pj) cnt++;
+                    if (pi < pj) cnt++;
                 }
                 if (cnt == m) answer++;
             }
